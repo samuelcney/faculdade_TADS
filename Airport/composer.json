@@ -1,0 +1,17 @@
+{
+    "name": "samucney/airport",
+    "description": "Projeto de um sistema de aeroporto.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Samucney\\Airport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel C. Ney"
+        }
+    ],
+    "require": {}
+}

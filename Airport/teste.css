@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+        
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+            font-family: "League Spartan";  
+        }
+
+        main{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        header{
+            width: 100%;
+            max-height: 65px;
+            background-color: #4A94D1FF;
+            border-bottom: 1px solid black;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .links{
+            text-decoration: none;
+            color: black;
+            margin: 10px 40px 10px 5px;
+            font-size: 20px;
+        }
+
+        .links:hover{
+            text-decoration: underline;
+        }
+
+        .logo{
+            font-size: 50px;
+            font-weight: 400;
+            margin-left: 10px;
+            margin-top: 40px;
+        }
+
+        .avioes{
+            width: 500px;
+            margin: auto auto 40px auto;
+            border-bottom: 1px solid black;
+        }
+
+        .avioes>h2{
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .ship{
+            width: 500px;
+            border: 1px solid black;
+            height: 335px;      
+        }
+
+        .Ativo{
+            color: green; 
+        }
+        .Manutenção{
+            color: red;
+        }
+        .Inativo{
+            color: orange;
+        }
