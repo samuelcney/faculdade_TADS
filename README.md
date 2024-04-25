@@ -1,6 +1,7 @@
 # Bem vindo ao Repositório para a Faculdade 🧙‍♂️
 
-Repositório feito para postar trabalhos e exercícios feitos na faculdade.
+Esse repositório foi feito com o objetivo de postar os trabalhos e atividades feitas 
+no curso TADS.
 
 ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=samuelcney&layout=compact&bg_color=000&border_color=790000&title_color=790000&text_color=FFF)
 
