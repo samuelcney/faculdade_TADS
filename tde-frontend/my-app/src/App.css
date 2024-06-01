@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*, html{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.App{
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    color: #def4c6;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subtitle{
+    margin: 25px 0;
+    font-weight: 600;
+    color: #b1cf5f;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    width: 100%;
+    min-height: 800px;
+}
+
+.one{
+    background-color: #1c7c54;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    
+}
+
+.three{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/823/390/large_2x/morning-cup-of-coffee-espresso-and-coffee-beans-the-background-nature-blur-free-photo.jpg");
+    background-size: cover; 
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    letter-spacing: 2px;
+    width: 600px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.space{
+    height: 100%;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 700px;
+    border-radius: 30px;
+    animation: fadeIn 2s;
+}
+
+.icon{
+    width: 85px;
+    margin: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.icon > img{
+    width: 55px;
+    margin-bottom: 5px;
+}
+
+.icon:hover{
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+.secondTitle{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 35px;
+    color: #1b512d;
+    letter-spacing: 4px;
+}
+
+.slideToRight{
+    animation: slideToRight 1.3s;
+}
+
+@keyframes slideToRight {
+    from{
+        opacity: 0;
+        margin-right: 700px;
+    }
+    to{
+        opacity: 1;
+        margin-right: 0;
+    }
+}
+
+.newCard{
+    width: 700px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: #1b512d 1px solid;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    border-radius: 35px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+    margin-bottom: 50px;
+    transition: 0.5s;
+    border: #1c7c54;
+    color: #fff;
+    background-color: #1c7c54;
+}
+
+a > img{
+    filter: invert();
+    margin-left: 15px;
+}
+
+a:hover{
+    filter: brightness(1.3);
+    transition: 0.5s;
+    scale: 1.01;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+
+h4{
+    color: #1c7c54;
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    border-radius: 3em;
+    margin-left: 40px;
+    border: 2px solid #1c7c54;
+    padding: 20px;
+    font-size: 26px;
+    font-family: 'Montserrat';
+}
+
+.emailButton{
+    width: 80px;
+    border-radius: 50px;
+    margin-left: 40px;
+    background-color: #1c7c54;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 230px;
+    background-color: #1b512d;
+}
+
+footer > h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+footer > h4 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.socialIcon{
+    width: 45px;
+    margin: 50px 15px 15px;
+    filter: invert();
+}
+
+.socialIcon:hover{
+    scale: 1.1;
+}
+
